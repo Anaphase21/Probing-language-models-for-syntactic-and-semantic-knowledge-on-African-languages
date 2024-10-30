@@ -1,3 +1,5 @@
+The code for this project was adapted from [probing](https://github.com/juditacs/probing). The instructions remain the same as follows:
+
 # Probing
 
 Probing is a popular evaluation method for blackbox language models.
