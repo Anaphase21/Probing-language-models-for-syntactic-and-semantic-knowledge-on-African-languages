@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: probing
+Version: 0.0.0
+Summary: Probe Transformer models
+Author: Judit Acs
+Platform: linux
+Requires-Python: >=3.6
+Provides-Extra: testing
+License-File: LICENSE

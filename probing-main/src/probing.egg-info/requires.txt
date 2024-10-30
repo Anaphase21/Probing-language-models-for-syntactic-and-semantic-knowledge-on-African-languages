@@ -1,0 +1,14 @@
+transformers
+pyyaml
+numpy
+torch>=1.7
+pandas
+scikit-learn
+unidecode
+
+[testing]
+pytest>=6.0
+pytest-cov>=2.0
+flake8>=3.9
+flake8-docstrings>=1.6.0
+pep8-naming>=0.12.1

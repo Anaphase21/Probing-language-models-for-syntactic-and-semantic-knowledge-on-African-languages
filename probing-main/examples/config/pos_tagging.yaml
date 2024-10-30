@@ -1,0 +1,20 @@
+batch_size: 128
+dataset_class: SequenceClassificationWithSubwords
+dropout: 0.2
+epochs: 100
+experiment_dir: /content/exps/pos/random_baselines/swa
+layer_pooling: 1
+mlp_layers:
+- 50
+mlp_nonlinearity: ReLU
+model: TransformerForSequenceTagging
+model_name: bert-base-multilingual-cased
+optimizer: Adam
+optimizer_kwargs:
+  lr: 0.001
+randomize_embedding_weights: true
+save_metric: dev_acc
+shuffle_batches: false
+sort_data_by_length: false
+subword_lstm_size: 100
+subword_pooling: first

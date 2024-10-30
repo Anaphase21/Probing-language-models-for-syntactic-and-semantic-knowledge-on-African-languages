@@ -1,0 +1,23 @@
+NER: true
+batch_size: 32
+dataset_class: SequenceClassificationWithSubwords
+dropout: 0.2
+early_stopping_window: 5
+epochs: 100
+experiment_dir: /content/exps/ner/random_baselines/swa
+layer_pooling: 1
+mlp_layers:
+- 50
+mlp_nonlinearity: ReLU
+model: TransformerForSequenceTagging
+model_name: castorini/afriberta_large
+optimizer: Adam
+optimizer_kwargs:
+  lr: 0.01
+  weight_decay: 1.0e-05
+randomize_embedding_weights: true
+save_metric: dev_acc
+shuffle_batches: false
+sort_data_by_length: false
+subword_lstm_size: 100
+subword_pooling: first
