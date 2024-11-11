@@ -1,4 +1,5 @@
 # Probing-language-models-for-syntactic-and-semantic-knowledge-on-African-languages
+In this repo, I put my code, which I modified from another repo in order to run my experiments; a notebook of all the experiments; and a pdf document of my master's mini-thesis for this project.
 The code for this project was adapted from [probing](https://github.com/juditacs/probing). The instructions remain the same as follows:
 
 # Probing
